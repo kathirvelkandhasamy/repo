@@ -11,10 +11,8 @@ int toupper(char *input)
 
 main()
 {
-
-char *ptr = NULL;
-printf("Enter the input:\n");
-scanf("%c",&ptr);
-toupper(&ptr);
-
+	char *ptr = NULL;
+	printf("Enter the input:\n");
+	scanf("%c",&ptr);
+	toupper(&ptr);
 }
